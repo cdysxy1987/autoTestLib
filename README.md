@@ -1,2 +1,2 @@
 # serverCtrl
-Control Original Server for cache autotest(primarily for http)
+check requests to original server for cache automatic test(primarily for http protocol)
