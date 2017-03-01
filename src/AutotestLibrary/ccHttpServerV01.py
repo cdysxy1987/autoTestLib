@@ -35,7 +35,8 @@ logger = logging.getLogger()
 logger.addHandler(handler)
 logger.setLevel(logging.INFO)
 
-class ccHttpServer():
+class ccHttpServer(object):
+    ROBOT_LIBRARY_SCOPE = 'Global'
     def __init__(self,origReqLogPath="",ngxConfDestPath=""):
         self.reqLogPath = origReqLogPath
         self.ngxConfDestPath = ngxConfDestPath
